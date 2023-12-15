@@ -266,7 +266,6 @@ class Boxer{
             if (!dodged){
             if ((direction === "right" && this.x < player_x + 90) || (direction === "left" && this.x > player_x - 90)) {
                 this.x += (direction === "right" ? 5 : -5);
-                if (direction === "right") flipImageHorizontally(img, ctx); 
                 if (other.player == 0){
                 other.width += 8;
                 other.height += 5;
