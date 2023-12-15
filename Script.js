@@ -258,6 +258,7 @@ class Boxer{
     dodge = (other, direction) => {
         let player_x = this.x;
         
+        
         let dodged = false;
         this.dodging = true;
         this.dodging_time = new Date();
